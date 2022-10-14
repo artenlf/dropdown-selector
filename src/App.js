@@ -33,9 +33,9 @@ function App() {
   }, [sortType]);
 
   return (
-    <div className="App">
-      <h1 className="title">Dynamic selector</h1>
-      <div className="selectorContainer">
+    <>
+      <header className="header">
+        <h1>Dynamic selector</h1>
         <select
           className="selector"
           onChange={(event) => setSortType(event.target.value)}
@@ -46,20 +46,20 @@ function App() {
           <option value="price">Lowest price</option>
           <option value="highestPrice">Highest price</option>
         </select>
-      </div>
-      <div className="grid">
+      </header>
+      <section className="grid">
         {data.map((item) => {
           return (
             <div className="item" key={item.id}>
               <img src={item.picture} alt={item.name} />
-              <div>{item.id}</div>
-              <div>{item.name}</div>
-              <div>{item.price}</div>
+              <span>{item.id}</span>
+              <span>{item.name}</span>
+              <span>{item.price}</span>
             </div>
           );
         })}
-      </div>
-    </div>
+      </section>
+    </>
   );
 }
 

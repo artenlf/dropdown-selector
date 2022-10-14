@@ -1,19 +1,7 @@
-.App {
-  background-color: #282c34;
-  color: white;
-  font-size: 24px;
-  min-height: 100vh;
-}
-
-.title {
-  margin: 0;
-  padding: 0;
-  text-align: center;
-}
-
-.selectorContainer {
+.header {
+  align-items: center;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
 }
 
 .selector {
@@ -22,18 +10,36 @@
   font-size: 16px;
   font-weight: bold;
   height: 40px;
-  width: 150px;
+  width: 176px;
 }
 
 .grid {
-  display: flex;
-  flex-wrap: wrap;
-  margin: 1rem;
+  display: grid;
+  grid-template-columns: repeat(6, 176px);
+  justify-content: center;
 }
 
 .item {
   display: flex;
   flex-direction: column;
   margin: 1rem;
-  max-width: 176px;
+  width: 150px;
+}
+
+@media screen and (max-width: 1068px) {
+  .grid {
+    grid-template-columns: repeat(4, 176px);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .grid {
+    grid-template-columns: repeat(3, 176px);
+  }
+}
+
+@media screen and (max-width: 535px) {
+  .grid {
+    grid-template-columns: repeat(2, 176px);
+  }
 }
