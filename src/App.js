@@ -19,17 +19,13 @@ function App() {
       };
       const sortProperty = types[type];
       const sorted = [...products].sort((a, b) => {
-        if (sortProperty === "name") {
-          return a.name.localeCompare(b.name);
-        }
-        if (sortProperty === "inverseName") {
-          return b.name.localeCompare(a.name);
-        }
-        if (sortProperty === "highestPrice") {
-          return b.price - a.price;
-        } else {
-          return a[sortProperty] - b[sortProperty];
-        }
+        return sortProperty === "name"
+          ? a.name.localeCompare(b.name)
+          : sortProperty === "inverseName"
+          ? b.name.localeCompare(a.name)
+          : sortProperty === "highestPrice"
+          ? b.price - a.price
+          : a[sortProperty] - b[sortProperty];
       });
       setData(sorted);
     };
