@@ -1,0 +1,128 @@
+[
+  {
+    "id": 1,
+    "name": "Réplica Grogu",
+    "price": 99.99,
+    "picture": "/grogu.png",
+    "category": "Star Wars"
+  },
+  {
+    "id": 2,
+    "name": "Boneco Stormtrooper",
+    "price": 199.99,
+    "picture": "/stormtrooper.png",
+    "category": "Star Wars"
+  },
+  {
+    "id": 3,
+    "name": "Boneco Kylo Ren",
+    "price": 189.99,
+    "picture": "/kylo.png",
+    "category": "Star Wars"
+  },
+  {
+    "id": 4,
+    "name": "Caneca Stormtrooper",
+    "price": 189.99,
+    "picture": "/cup.png",
+    "category": "Star Wars"
+  },
+  {
+    "id": 5,
+    "name": "Yoda em cerâmica",
+    "price": 114.99,
+    "picture": "/yoda.png",
+    "category": "Star Wars"
+  },
+  {
+    "id": 6,
+    "name": "Bustos Lego Star Wars",
+    "price": 79.99,
+    "picture": "/lego.png",
+    "category": "Star Wars"
+  },
+  {
+    "id": 7,
+    "name": "PlayStation 5",
+    "price": 3999.99,
+    "picture": "/ps5.png",
+    "category": "Consoles"
+  },
+  {
+    "id": 8,
+    "name": "Controle Xbox One S",
+    "price": 299.99,
+    "picture": "/xboxc.png",
+    "category": "Consoles"
+  },
+  {
+    "id": 9,
+    "name": "Nintendo ES",
+    "price": 799.99,
+    "picture": "/nes.png",
+    "category": "Consoles"
+  },
+  {
+    "id": 10,
+    "name": "Xbox One X",
+    "price": 4459.99,
+    "picture": "/xboxonex.png",
+    "category": "Consoles"
+  },
+  {
+    "id": 11,
+    "name": "Game Boy",
+    "price": 399.99,
+    "picture": "/gameboy.png",
+    "category": "Consoles"
+  },
+  {
+    "id": 12,
+    "name": "Joycons Switch",
+    "price": 159.99,
+    "picture": "/joycons.png",
+    "category": "Consoles"
+  },
+  {
+    "id": 13,
+    "name": "Camiseta Atari",
+    "price": 49.99,
+    "picture": "/ataritee.png",
+    "category": "Diversos"
+  },
+  {
+    "id": 14,
+    "name": "Camiseta NES",
+    "price": 49.99,
+    "picture": "/nestee.png",
+    "category": "Diversos"
+  },
+  {
+    "id": 15,
+    "name": "Pelúcia Pikachu",
+    "price": 89.99,
+    "picture": "/pikachu.png",
+    "category": "Diversos"
+  },
+  {
+    "id": 16,
+    "name": "Miniatura Sonic",
+    "price": 42.99,
+    "picture": "/sonic.png",
+    "category": "Diversos"
+  },
+  {
+    "id": 17,
+    "name": "Relógio Retrô",
+    "price": 69.99,
+    "picture": "/clock.png",
+    "category": "Diversos"
+  },
+  {
+    "id": 18,
+    "name": "PlayStation VR",
+    "price": 2799.99,
+    "picture": "/psvr.png",
+    "category": "Diversos"
+  }
+]
