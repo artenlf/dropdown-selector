@@ -35,7 +35,7 @@ function App() {
   return (
     <>
       <header className="header">
-        <h1>Dynamic selector</h1>
+        <h1>Ordering selector</h1>
         <select
           className="selector"
           onChange={(event) => setSortType(event.target.value)}
