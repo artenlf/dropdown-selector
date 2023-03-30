@@ -11,7 +11,7 @@ Um simples e genérico seletor de ordenamento com opções de ordernar por itens
 | :rocket: URL         | https://dropdown-selector.vercel.app/
 | :fire: Desafio     | 
 
-![](https://github.com/artenlf/ordering-selector/blob/main/public/screenshot-01.png#vitrinedev)
+![](https://i.imgur.com/SDzMtft.png#vitrinedev)
 
 ---
 
@@ -31,4 +31,6 @@ I developed it to help a friend solve a bug on his project. Also, it helped me r
 
 Because this feature is so popular and required on numerous projects, I created this repository to share this knowledge with other developers, intending to help them.
 
+## Screenshots
 
+![](https://github.com/artenlf/ordering-selector/blob/main/public/screenshot-01.png)
